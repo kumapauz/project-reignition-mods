@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cq31gge65ngjk"
+path="res://.godot/imported/sidle hurt.wav-82760d3409c6d56a7af4f8c2f131b09c.sample"
+
+[deps]
+
+source_file="res://mods/characters/blaze/sound/en/sidle hurt.wav"
+dest_files=["res://.godot/imported/sidle hurt.wav-82760d3409c6d56a7af4f8c2f131b09c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,5 +1,6 @@
 [gd_resource type="Resource" script_class="SkillResource" format=3 uid="uid://dkqw7wx434rph"]
 
+[ext_resource type="Resource" uid="uid://bkirnavvv7wby" path="res://mods/characters/blaze/sound/BlazeVoiceLibrary.tres" id="1_gvltb"]
 [ext_resource type="Script" uid="uid://crsyq3ics5uu4" path="res://resource/script/SkillResource.cs" id="1_pgvur"]
 
 [resource]
@@ -12,4 +13,5 @@ SkillConflicts = []
 Augments = []
 CustomCharacterName = "Blaze"
 NormalModel = "uid://57r73dwtt8rc"
+VoiceLibraryOverride = ExtResource("1_gvltb")
 metadata/_custom_type_script = "uid://crsyq3ics5uu4"

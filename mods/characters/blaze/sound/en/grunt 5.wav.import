@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqn5tdbeoxnl5"
+path="res://.godot/imported/grunt 5.wav-f8af8c28f1bcbad63f278912d9a7ba4f.sample"
+
+[deps]
+
+source_file="res://mods/characters/blaze/sound/en/grunt 5.wav"
+dest_files=["res://.godot/imported/grunt 5.wav-f8af8c28f1bcbad63f278912d9a7ba4f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

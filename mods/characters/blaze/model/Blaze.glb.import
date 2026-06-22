@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dmsd7ky5cyctm"
-path="res://.godot/imported/Blaze.glb-8d471d735311734a9d352ad7bd45dd2b.scn"
+path="res://.godot/imported/Blaze.glb-e9afa93a03fe6fc7af877107d8c48a81.scn"
 
 [deps]
 
-source_file="res://mods/characters/blaze/Blaze.glb"
-dest_files=["res://.godot/imported/Blaze.glb-8d471d735311734a9d352ad7bd45dd2b.scn"]
+source_file="res://mods/characters/blaze/model/Blaze.glb"
+dest_files=["res://.godot/imported/Blaze.glb-e9afa93a03fe6fc7af877107d8c48a81.scn"]
 
 [params]
 

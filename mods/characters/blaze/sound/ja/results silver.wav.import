@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ofite0sepmi3"
+path="res://.godot/imported/results silver.wav-461fd4d6b09fb08de541b7b6f30045b4.sample"
+
+[deps]
+
+source_file="res://mods/characters/blaze/sound/ja/results silver.wav"
+dest_files=["res://.godot/imported/results silver.wav-461fd4d6b09fb08de541b7b6f30045b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

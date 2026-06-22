@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1kbj4vfnbhr"
+path="res://.godot/imported/ds push.wav-a922dffa9eba5164681e88f6d4a17aef.sample"
+
+[deps]
+
+source_file="res://mods/characters/blaze/sound/ja/ds push.wav"
+dest_files=["res://.godot/imported/ds push.wav-a922dffa9eba5164681e88f6d4a17aef.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

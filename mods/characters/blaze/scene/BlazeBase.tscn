@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://57r73dwtt8rc"]
 
-[ext_resource type="PackedScene" uid="uid://cv14b3r1pov0q" path="res://object/player/resource/BaseModel.tscn" id="1_aai7p"]
-[ext_resource type="Shader" uid="uid://uhjm7rph4ps" path="res://effect/shader/object/player/SpeedbreakOverlay.gdshader" id="2_epcea"]
-[ext_resource type="PackedScene" uid="uid://dmsd7ky5cyctm" path="res://mods/characters/blaze/Blaze.glb" id="2_q7sqh"]
-[ext_resource type="Texture2D" uid="uid://dro2uu3qklc6t" path="res://object/player/resource/model/texture/sonic.png" id="3_ltunp"]
-[ext_resource type="Texture2D" uid="uid://50kv8je16bui" path="res://object/player/resource/model/texture/sonic specular.png" id="4_vam5d"]
+[ext_resource type="PackedScene" uid="uid://cv14b3r1pov0q" path="res://object/player/resource/BaseModel.tscn" id="1_to27n"]
+[ext_resource type="Shader" uid="uid://uhjm7rph4ps" path="res://effect/shader/object/player/SpeedbreakOverlay.gdshader" id="2_7gq0y"]
+[ext_resource type="Texture2D" uid="uid://dro2uu3qklc6t" path="res://object/player/resource/model/texture/sonic.png" id="3_lwqh7"]
+[ext_resource type="Texture2D" uid="uid://50kv8je16bui" path="res://object/player/resource/model/texture/sonic specular.png" id="4_utf22"]
+[ext_resource type="PackedScene" uid="uid://dmsd7ky5cyctm" path="res://mods/characters/blaze/model/Blaze.glb" id="5_05ako"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_kyohn"]
 render_priority = 1
-shader = ExtResource("2_epcea")
-shader_parameter/albedo = ExtResource("3_ltunp")
-shader_parameter/specular = ExtResource("4_vam5d")
+shader = ExtResource("2_7gq0y")
+shader_parameter/albedo = ExtResource("3_lwqh7")
+shader_parameter/specular = ExtResource("4_utf22")
 shader_parameter/rim_bias = 0.8
 shader_parameter/rim_color = Color(0.999999, 0.364079, 0.219394, 1)
 shader_parameter/emission = 10.0
@@ -18,12 +18,12 @@ shader_parameter/opacity = 0.0
 shader_parameter/albedo_leak = 1.0
 shader_parameter/growth = 0.005
 
-[node name="Model" unique_id=781135473 instance=ExtResource("1_aai7p")]
+[node name="Model" unique_id=781135473 instance=ExtResource("1_to27n")]
 speedbreakOverlayMaterial = SubResource("ShaderMaterial_kyohn")
 
-[node name="Blaze" parent="." index="0" unique_id=1477821427 instance=ExtResource("2_q7sqh")]
+[node name="Blaze" parent="." index="0" unique_id=1477821427 instance=ExtResource("5_05ako")]
 
-[node name="GeneralSkeleton" parent="Blaze/GameRoot" parent_id_path=PackedInt32Array(1477821427, 118560003) index="0" unique_id=339102252]
+[node name="GeneralSkeleton" parent="Blaze/GameRoot" parent_id_path=PackedInt32Array(1477821427, 391642636) index="0" unique_id=1275459091]
 bones/0/rotation = Quaternion(-0.7071068, 0, 0, 0.7071068)
 bones/3/position = Vector3(0.30632782, 0.005206049, 0.6121043)
 bones/3/rotation = Quaternion(0.0045903493, 0.0045903493, -0.7070919, 0.7070918)
