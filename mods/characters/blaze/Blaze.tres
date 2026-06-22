@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="SkillResource" format=3 uid="uid://dkqw7wx434rph"]
+
+[ext_resource type="Script" uid="uid://crsyq3ics5uu4" path="res://resource/script/SkillResource.cs" id="1_pgvur"]
+
+[resource]
+script = ExtResource("1_pgvur")
+Key = 54
+Element = 3
+Category = 7
+StageRequirement = &""
+SkillConflicts = []
+Augments = []
+CustomCharacterName = "Blaze"
+NormalModel = "uid://57r73dwtt8rc"
+metadata/_custom_type_script = "uid://crsyq3ics5uu4"

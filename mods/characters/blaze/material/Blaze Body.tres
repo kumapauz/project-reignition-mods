@@ -1,0 +1,35 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://doeeb8y3gu523"]
+
+[ext_resource type="Shader" uid="uid://qtowqhse6wgf" path="res://effect/shader/bluwolf/Sonic.gdshader" id="1_hf6xx"]
+[ext_resource type="Texture2D" uid="uid://c2gjl7p24nk5t" path="res://mods/characters/blaze/texture/blaze body.png" id="2_lh7l2"]
+[ext_resource type="Texture2D" uid="uid://diuuqus77b3ty" path="res://mods/characters/blaze/texture/blaze_body_goldmask.png" id="3_jhcxy"]
+[ext_resource type="Texture2D" uid="uid://cvcvc784ylgvb" path="res://mods/characters/blaze/texture/blaze_body_redmask.png" id="4_8leo6"]
+[ext_resource type="Texture2D" uid="uid://cwqpoo8fn4ul0" path="res://party/resource/character/model/texture/sonic metal.png" id="4_ygx4c"]
+[ext_resource type="Texture2D" uid="uid://bvawkkdh3q3hl" path="res://mods/characters/blaze/texture/blaze gem.png" id="6_qmeoh"]
+[ext_resource type="Texture2D" uid="uid://bkp15drl0t86h" path="res://mods/characters/blaze/texture/blaze_body_spc.png" id="7_lhir8"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_hf6xx")
+shader_parameter/diffuse_texture = ExtResource("2_lh7l2")
+shader_parameter/specular_texture = ExtResource("7_lhir8")
+shader_parameter/falloff_texture = ExtResource("7_lhir8")
+shader_parameter/environment_texture_1 = ExtResource("4_ygx4c")
+shader_parameter/environment_texture_2 = ExtResource("6_qmeoh")
+shader_parameter/environment_mask_1 = ExtResource("3_jhcxy")
+shader_parameter/environment_mask_2 = ExtResource("4_8leo6")
+shader_parameter/enable_normal_map = false
+shader_parameter/enable_environment_map = true
+shader_parameter/enable_alpha_scissor = false
+shader_parameter/enable_backface_culling = true
+shader_parameter/diffuse_color = Color(1, 1, 1, 1)
+shader_parameter/specular_color = Color(0, 0, 0, 1)
+shader_parameter/power_gloss_level = Vector4(50, 0.033, 0.027, 0)
+shader_parameter/sonic_skin_falloff_param = Vector4(0.35, 1, 5, 0)
+shader_parameter/luminance_range = 2.0
+shader_parameter/normal_intensity = 1.0
+shader_parameter/env_intensity_1 = 0.6499999854712001
+shader_parameter/env_intensity_2 = 0.499999988824
+shader_parameter/env_intensity_3 = 0.0
+shader_parameter/emission_intensity = 0.0
+shader_parameter/alpha_scissor_threshold = 0.5
