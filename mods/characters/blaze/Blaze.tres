@@ -13,5 +13,6 @@ SkillConflicts = []
 Augments = []
 CustomCharacterName = "Blaze"
 NormalModel = "uid://57r73dwtt8rc"
+SuperModel = "uid://57r73dwtt8rc"
 VoiceLibraryOverride = ExtResource("1_gvltb")
 metadata/_custom_type_script = "uid://crsyq3ics5uu4"
